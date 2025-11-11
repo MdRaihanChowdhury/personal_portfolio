@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lc6ogksAAAAAJyq0v93EtxSBVI8niXohRK9MSej"></script>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <!-- Author -->
+    <meta name="author" content="Personal portfolio">
+    <!-- description -->
+    <meta name="description" content="This is a personal portfolio website.">
+    <!-- keywords -->
+    <meta name="keywords" content="Creative, modern, clean, bootstrap responsive, html5, css3, portfolio, blog, studio, templates, multipurpose, one page, corporate, start-up, studio, branding, designer, freelancer, carousel, parallax, photography, studio, masonry, grid, faq">
+    <!-- Page Title -->
+    <title>Raihan's Personal Portfolio Website</title>
+    <!-- Favicon -->
+        <link href="img/stumbleupon copy.png" rel="icon">
+    <!-- Bundle -->
+    <link href="css/bundle.min.css" rel="stylesheet">
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <!-- Plugin Css -->
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+    <!-- Style Sheet -->
+    <link href="css/tootik.min.css" rel="stylesheet">
+    <link href="css/line-awesome.min.css" rel="stylesheet">
+    <link href="css/jquery.pagepiling.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="90">
+
+<!-- START LOADER -->
+<div class="loader-bg">
+    <div id="container">
+        <svg viewBox="0 0 100 100">
+            <defs>
+                <filter id="shadow">
+                    <feDropShadow dx="0" dy="0" stdDeviation="0.5"
+                                  flood-color="#dabd1d"/>
+                </filter>
+            </defs>
+            <circle id="spinner" style="fill:transparent;stroke:#00a2ff;stroke-width: 8px;stroke-linecap: round;filter:url(#shadow);" cx="50" cy="50" r="45"/>
+        </svg>
+    </div>
+</div>
+<!-- END LOADER -->
+
+<!-- START HEADER -->
+<header>
+    <!--Navigation-->
+    <nav class="navbar navbar-top-default navbar-expand-lg navbar-simple nav-line">
+        <a href="#home" title="Logo" class="logo">
+            <!--Logo Default-->
+            <div class="mega-logo">
+                <img src="img/stumbleupon copy.png" alt="logo" class="ml-lg-3 m-0">
+                
+            </div>
+        </a>
+
+        <!--Side Menu Button-->
+        <div class="navigation-toggle">
+            <ul class="slider-social toggle-btn my-0">
+                <li>
+                    <a href="javascript:void(0);" class="sidemenu_btn" id="sidemenu_toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Side Nav-->
+    <div class="side-menu hidden">
+        <span id="btn_sideNavClose">
+          <i class="lni lni-plus btn-close"></i>
+        </span>
+        <div class="inner-wrapper">
+            <nav class="side-nav w-100">
+                <a href="#home" title="Logo" class="logo navbar-brand">
+                    <img src="img/stumbleupon copy.png" alt="logo">
+                </a>
+                <ul class="navbar-nav text-capitalize">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#timeline">Timeline</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonial">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="text-center sidebar_btn">
+                    <a href="personal-hotspot/download-resume/resume.pdf" download class="btn btn-medium btn-rounded btn-yellow text-capitalize">Download Resume</a>
+                </div>
+            </nav>
+
+            <div class="side-footer w-100">
+                <ul class="social-icons-simple">
+                    <li><a class="social-icon" href="javascript:void(0)"><i class="lni lni-facebook-filled"></i> </a> </li>
+                    <li><a class="social-icon" href="javascript:void(0)"><i class="lni lni-instagram-original"></i> </a> </li>
+                    <li><a class="social-icon" href="javascript:void(0)"><i class="lni lni-twitter"></i> </a> </li>
+                    <li><a class="social-icon" href="javascript:void(0)"><i class="lni lni-linkedin"></i> </a> </li>
+                </ul>
+                <p>&copy; Animation Coding</p>
+            </div>
+        </div>
+    </div>
+    <a id="close_side_menu" href="javascript:void(0);"></a>
+</header>
+<!-- END HEADER -->
+
+<div id="pagepiling">
+
+<!-- START BANNER -->
+    <section class="section slide1 p-0" id="home">
+        <div class="slider-area" id="slider-area">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 image-order">
+                    <div class="slider-image">
+                        <img src="img/slider-img.png" alt="Slider-Image">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 text-md-center text-lg-left">
+                    <div class="slider-content">
+                        <h1 class="main-font text-uppercase"><span class="slider-text px-2"> Hello, I am </span> <span class="d-block text-yellow"> web designer.</span></h1>
+                        <p class="pt-3 alt-font content-para">I design bold, modern websites that speak for brands and connect with people. Every pixel I place has a purpose — to create experiences that inspire, not just impress.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Circle-One -->
+            <div class="circle-one">
+                 <span data-tootik="About" data-tootik-conf="right dark square shadow">
+                    <a href="#about">
+                        <span class="animated-circle position-relative"></span>
+                    </a>
+                 </span>
+            </div>
+            <!-- Circle-Two -->
+            <div class="circle-two">
+                 <span data-tootik="Timeline" data-tootik-conf="left dark square shadow">
+                    <a href="#timeline">
+                        <span class="animated-circle position-relative"></span>
+                    </a>
+                 </span>
+            </div>
+            <!-- Circle-Three -->
+            <div class="circle-three">
+              <span data-tootik="Portfolio" data-tootik-conf="top dark square shadow">
+                    <a href="#portfolio">
+                        <span class="animated-circle position-relative"></span>
+                    </a>
+              </span>
+            </div>
+            <!-- Circle-Four -->
+            <div class="circle-four">
+                  <span data-tootik="Testimonials" data-tootik-conf="bottom dark square shadow">
+                    <a href="#testimonial">
+                        <span class="animated-circle position-relative"></span>
+                    </a>
+                  </span>
+            </div>
+            <!-- Circle-Five -->
+            <div class="circle-five">
+                  <span data-tootik="Contact" data-tootik-conf="bottom dark square shadow">
+                        <a href="#contact">
+                            <span class="animated-circle position-relative"></span>
+                        </a>
+                  </span>
+            </div>
+        </div>
+    </section>
+<!-- END BANNER -->
+
+<!-- START SKILLS -->
+    <section class="section slide2 skills" id="about">
+        <div class="container">
+            <div class="row pb-5">
+                <div class="col-12 col-md-7 pl-md-0">
+                    <h3 class="main-font text-uppercase"><span class="text-yellow d-block"> Web Designer & </span> <span> Digital Creator </span></h3>
+                    <p class="py-2 alt-font">Crafting clean, impactful, and user-focused digital experiences.</p>
+                </div>
+                <div class="col-12 col-md-5 text-md-right pt-4 pt-md-0">
+                    <h2 class="m-0 text-yellow main-font">2+</h2>
+                    <p class="alt-font">Years of Experience</p>
+                </div>
+            </div>
+            <div class="row pt-md-5 skill-box">
+                <div class="col-12 col-md-6">
+
+                    <div class="row">
+                        <!-- First Skill -->
+                        <div class="col-12 col-md-6 text-center text-md-left pl-md-0">
+                            <h4 class="main-font text-yellow skill">WEB DESIGN</h4>
+                            <p class="alt-font text-white mt-3">I design sleek, responsive websites that bring ideas to life — blending creativity with clarity and purpose.</p>
+                        </div>
+                        <!-- Second Skill -->
+                        <div class="col-12 col-md-6 pt-5 pt-md-0 pr-md-0 text-center text-md-left">
+                            <h4 class="main-font text-yellow skill">Creative Strategy</h4>
+                            <p class="alt-font text-white mt-3">I combine design thinking and strategy to make every project meaningful — not just beautiful.</p>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <!-- Third Skill -->
+                        <div class="col-12 col-md-6 text-center text-md-left pl-md-0">
+                            <h4 class="main-font text-yellow skill">DEVELOPMENT</h4>
+                            <p class="alt-font text-white mt-3">From concept to code, I ensure every detail works beautifully across screens and platforms.</p>
+                        </div>
+                        <!-- Fourth Skill -->
+                        <div class="col-12 col-md-6 pt-5 pt-md-0 text-center text-md-left pr-md-0">
+                            <h4 class="main-font text-yellow skill">DIGITAL MEDIA</h4>
+                            <p class="alt-font text-white mt-3">I love creating visual moments that stay with people — turning brands into experiences worth remembering.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Progress Bars -->
+                <div class="col-12 col-md-5 offset-md-1 text-left pr-md-0 bars-section">
+                    <ul class="progress-bar-side">
+                        <!-- First Bar -->
+                        <li class="custom-progress text-white">
+                            <h6 class="mb-0 text-capitalize mons-font">HTML/CSS<span class="float-right"><b class="numscroller">94</b>%</span></h6>
+
+                            <div class="progress">
+                                <div class="progress-bar bg-yellow" role="progressbar" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Second Bar -->
+                        <li class="custom-progress text-white">
+                            <h6 class="mb-0 text-capitalize mons-font">Adobe Photoshop<span class="float-right"><b class="numscroller">90</b>%</span></h6>
+
+                            <div class="progress">
+                                <div class="progress-bar bg-yellow" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Third Bar -->
+                        <li class="custom-progress text-white">
+                            <h6 class="mb-0 text-capitalize mons-font">Web Development<span class="float-right"><b class="numscroller">96</b>%</span></h6>
+
+                            <div class="progress">
+                                <div class="progress-bar bg-yellow" role="progressbar" aria-valuenow="96" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- END SKILLS -->
+
+<!-- START TIMELINE -->
+    <section class="section slide3 timeline-bg" id="timeline">
+        <div class="container">
+            <div class="row pb-5 heading-row">
+                <div class="col-12 col-md-7">
+                    <h3 class="main-font text-uppercase"><span class="text-yellow d-block text-uppercase"> My Career </span> <span> History & Timeline </span></h3>
+                    <p class="py-2 alt-font">Please take a look at my journey so far.</p>
+                </div>
+                <div class="col-12 col-md-5 text-md-right pt-4 pt-md-0">
+                    <h2 class="m-0 text-yellow main-font">25</h2>
+                    <p class="alt-font">Years Old</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="cd-horizontal-timeline loaded">
+                        <div class="timeline">
+                            <!-- Events-Wrapper -->
+                            <div class="events-wrapper">
+                                <!-- Events -->
+                                <div class="events" style="width: 2200px;">
+                                    <ol>
+                                        <li><a href="#" data-date="16/01/2017" class="older-event selected">2014</a></li>
+                                        <li><a href="#" data-date="28/02/2017" style="left: 200px;">2015</a></li>
+                                        <li><a href="#" data-date="20/04/2017" style="left: 200px;">2017</a></li>
+                                        <li><a href="#" data-date="20/05/2017" style="left: 200px;">2019</a></li>
+                                        <li><a href="#" data-date="09/07/2017" style="left: 200px;">2022</a></li>
+                                        <li><a href="#" data-date="30/08/2017" style="left: 200px;">2023</a></li>
+                                        <li><a href="#" data-date="15/09/2017" style="left: 200px;">2024</a></li>
+                                        <li><a href="#" data-date="01/11/2017" style="left: 200px;">2025</a></li>
+
+                                        
+            
+                                    </ol>
+                                    <span class="filling-line" aria-hidden="true"></span>
+                                </div>
+                                <!-- Events -->
+                            </div>
+                            <!-- Events-Wrapper -->
+                            <ul class="cd-timeline-navigation">
+                                <li><a href="#" class="prev">Prev</a></li>
+                                <li><a href="#" class="next">Next</a></li>
+                            </ul>
+                            <!-- Timeline-Navigation -->
+                        </div>
+                        <!-- Timeline -->
+                        <div class="events-content">
+                            <ol>
+                                <li class="selected" data-date="16/01/2017">
+                                    <!-- Main Content Div -->
+                                    <div class="col-12 pl-md-0">
+                                      <div class="main-content text-uppercase">
+                                          <h4 class="text-yellow main-font font-weight-normal">In 2014</h4>
+                                          <h2 class="main-font">I created a "Hello, World!" program for the first time.</h2>
+                                      </div>
+                                  </div>
+                                    <!-- Sub Content Div -->
+                                    <!-- Sub Content Div -->
+                                    <div class="row align-items-center">
+                                        <div class="sub-content">
+                                            <p>My journey into programming began with the book ‘Computer Programming’ by Tamim Shahriar Subeen. I was in class 7 when I picked it up from the book fair, not realizing it would spark a lifelong interest in coding. </p>
+                                            <p>The book introduced me to the fundamentals of the C programming language, and as I practiced, I began solving mathematical problems through code — a truly eye-opening experience</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li data-date="28/02/2017">
+                                    <!-- Main Content Div -->
+                                    <div class="col-12 pl-md-0">
+                                        <div class="main-content text-uppercase">
+                                            <h4 class="text-yellow main-font font-weight-normal">In 2015</h4>
+                                            <h2 class="main-font">Visual Studio Code & Fiverr Account</h2>
+                                        </div>
+                                    </div>
+                                    <!-- Sub Content Div -->
+                                    <div class="row align-items-center">
+                                        <div class="sub-content">
+                                            <p>In 2015, I started creating Windows applications using Visual Studio — mostly just for fun. I made some basic software that didn’t really have much practical use, but I truly enjoyed the process of building them.</p>
+                                            <p>Around that time, I was also active on some popular tech websites like Techtunes and Tunerpage, where I occasionally posted tech-related content.</p>
+                                            <p>Later that year, I opened a Fiverr account purely out of interest. I wasn’t planning to start freelancing seriously then, so I simply created the account and left it inactive for a while.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li data-date="20/04/2017">
+                                    <!-- Main Content Div -->
+                                    <div class="col-12 pl-md-0">
+                                        <div class="main-content text-uppercase">
+                                            <h4 class="text-yellow main-font font-weight-normal">Back in 2017</h4>
+                                            <h2 class="main-font">Started Collage Life</h2>
+                                        </div>
+                                    </div>
+                                    <!-- Sub Content Div -->
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-md-6 pl-md-0">
+                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">My Achievements</h5>
+                                                <p class="alt-font">During my college years, academic pressure increased, and I gradually became less active in the tech field. At one point, I got deeply obsessed with solving Rubik’s Cubes — I could solve a 3×3 cube in around 22 seconds after a lot of practice. Even now, I sometimes pick up the cube just for fun, though I no longer practice timing like I used to.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 pr-md-0">
+                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">What I learned</h5>
+                                                <p class="alt-font">College life taught me how demanding and overwhelming things can get — but also how to keep moving forward even when motivation fades.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li data-date="20/05/2017">
+                                    <!-- Main Content Div -->
+                                    <div class="col-12 pl-md-0">
+                                        <div class="main-content text-uppercase">
+                                            <h4 class="text-yellow main-font font-weight-normal">2019 — Finding My Direction</h4>
+                                            <h2 class="main-font"> Started Dealing Clients Online</h2>
+                                        </div>
+                                    </div>
+                                    <!-- Sub Content Div -->
+                                    <div class="sub-content">
+                                        <p>It was a year of transition — from college life to preparing for university. More importantly, it was when I discovered my passion for technology and made the choice to study Computer Science and Engineering.</p>
+                                    </div>
+                                </li>
+                                <li data-date="09/07/2017">
+                                    <!-- Main Content Div -->
+                                    <div class="col-12 pl-md-0">
+                                        <div class="main-content text-uppercase">
+                                            <h4 class="text-yellow main-font font-weight-normal">2022 — Exploring New Horizons</h4>
+                                            <h2 class="main-font">From textbooks to real projects</h2>
+                                        </div>
+                                    </div>
+                                    <!-- Sub Content Div -->
+                                    <div class="row align-items-center">
+                                        <div class="sub-content">
+                                            <p>By 2022, I was deeply immersed in my Computer Science and Engineering (CSE) studies. While academic pressure was high, I began exploring areas beyond the classroom — from programming projects to tech blogs and discussions.</p>
+                                            <p> I realized that university was not just about grades but about building practical skills, understanding problem-solving at scale, and developing a mindset for innovation. This was the year I started experimenting with real-world applications and understanding the industry landscape.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li data-date="30/08/2017">
+                                    <!-- Main Content Div -->
+                                    <div class="col-12 pl-md-0">
+                                        <div class="main-content text-uppercase">
+                                            <h4 class="text-yellow main-font font-weight-normal">2023 — Building Skills and Projects</h4>
+                                            <h2 class="main-font">Building, breaking, learning, and improving every step of the way </h2>
+                                        </div>
+                                    </div>
+                                    <!-- Sub Content Div -->
+                                    <div class="row align-items-center">
+                                        <div class="sub-content">
+                                            <p class="alt-font">In 2023, I shifted my focus from theoretical learning to hands-on projects. I worked on multiple software applications, small-scale systems, and coding exercises that strengthened my problem-solving abilities. I also started contributing to online tech communities, sharing insights, and learning from peers. It was a year of refining technical skills, understanding modern tools, and experimenting with ideas that blended creativity and functionality. The process was not always easy, but the learning curve was steep and immensely rewarding.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li data-date="15/09/2017">
+                                    <!-- Main Content Div -->
+                                    <div class="col-12 pl-md-0">
+                                        <div class="main-content text-uppercase">
+                                            <h4 class="text-yellow main-font font-weight-normal">2024 — Real-World Exposure and Freelancing</h4>
+                                            <h2 class="main-font">Turning knowledge into action</h2>
+                                        </div>
+                                    </div>
+                                    <!-- Sub Content Div -->
+                                    <div class="row align-items-center">
+                                        <div class="sub-content">
+                                            <p>By 2024, I began connecting my skills to real-world scenarios. I started freelancing on platforms like Fiverr and building projects that had practical applications. I also focused on web development, database management, and small software solutions, learning to manage clients, timelines, and expectations. While I was still a student, these experiences gave me a sense of professional responsibility and a taste of independence. I learned how to combine technical expertise with communication, time management, and client interaction — essential skills for a tech career.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li data-date="01/11/2017">
+                                    <!-- Main Content Div -->
+                                    <div class="col-12 pl-md-0">
+                                        <div class="main-content text-uppercase">
+                                            <h4 class="text-yellow main-font font-weight-normal">2025 — Consolidating Skills and Vision</h4>
+                                            <h2 class="main-font">2025 is about clarity and direction</h2>
+                                        </div>
+                                    </div>
+                                    <!-- Sub Content Div -->
+                                    <div class="row align-items-center">
+                                            <div class="sub-content">
+                                                <p>In 2025, I focused on consolidating my knowledge and aligning it with long-term goals. I worked on advanced projects, experimented with new technologies, and started planning a portfolio of work that reflects my capabilities. I also revisited my early tech passions — programming, problem-solving, and innovative thinking — to ensure they guide my career decisions. This year has been about combining experience, skill, and vision into a clear professional trajectory, preparing for the next chapter after university.</p>
+                                            </div>
+                                    </div>
+                                </li>
+                                <li data-date="10/12/2017">
+                                    <!-- Main Content Div -->
+                                    <div class="col-12 pl-md-0">
+                                        <div class="main-content text-uppercase">
+                                            <h4 class="text-yellow main-font font-weight-normal">15 MAY 2019</h4>
+                                            <h2 class="main-font">I had graduated from university</h2>
+                                        </div>
+                                    </div>
+                                    <!-- Sub Content Div -->
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-md-3 pl-md-0">
+                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">Major subjects</h5>
+                                                <p class="alt-font">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-3">
+                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">My Achievements</h5>
+                                                <p class="alt-font">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-3">
+                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">What I learned </h5>
+                                                <p class="alt-font">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-3 pr-md-0">
+                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">Final year project</h5>
+                                                <p class="alt-font">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li data-date="19/01/2018">
+                                    <!-- Main Content Div -->
+                                    <div class="col-12 pl-md-0">
+                                        <div class="main-content text-uppercase">
+                                            <h4 class="text-yellow main-font font-weight-normal">28 Oct 2020</h4>
+                                            <h2 class="main-font">Successful In Expanding Business World Wide </h2>
+                                        </div>
+                                    </div>
+                                    <!-- Sub Content Div -->
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-md-6 pl-md-0">
+                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">Major subjects</h5>
+                                                <p class="alt-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci,
+                                                    aperiam aut exercitationem facere itaque laboriosam maxime minus molestiae nemo nulla
+                                                    officiis placeat quam quasi quisquam repudiandae </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 pr-md-0">
+                                            <div class="sub-content">
+                                                <h5 class="text-uppercase main-font text-yellow">My Achievements</h5>
+                                                <p class="alt-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+                                                    atque cumque ducimus eveniet fugit impedit incidunt ipsam libero maxime, perferendis,
+                                                    quam quasi ratione reiciendis. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li data-date="03/03/2018">
+                                    <!-- Main Content Div -->
+                                    <div class="col-12 pl-md-0">
+                                        <div class="main-content text-uppercase">
+                                            <h4 class="text-yellow main-font font-weight-normal">15 MAY 2020</h4>
+                                            <h2 class="main-font">Looking Forward For More Opportunities</h2>
+                                        </div>
+                                    </div>
+                                    <!-- Sub Content Div -->
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-md-12 pl-md-0">
+                                            <div class="sub-content">
+                                                <p class="alt-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- END TIMELINE -->
+
+<!-- START PORTFOLIO -->
+<!-- START PORTFOLIO -->
+    <section class="section slide4 portfolio-bg" id="portfolio">
+        <div class="container">
+            <div class="row pb-5 heading-row">
+                <div class="col-12 col-md-7">
+                    <h3 class="main-font text-uppercase"><span class="text-yellow d-block"> PORTFOLIO </span> <span> MY RECENT WORK </span></h3>
+                    <p class="py-1 alt-font">I believe in art and that is my passion throughout my life.</p>
+                </div>
+                <div class="col-12 col-md-5 text-md-right pt-4 pt-md-0">
+                    <h2 class="m-0 text-yellow main-font">4+</h2>
+                    <p class="alt-font">Portfolio Items</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="team-classic owl-team owl-carousel text-center">
+                        <!-- Item 1 -->
+                        <div class="item">
+                            <div class="team-data-img">
+                                <a href="img/work/img1.png" data-fancybox="images">
+                                <div class="single-work">
+                                    <img src="img/work/img1.png" alt="team" class="img-responsive" data-no-retina>
+                                    <div class="overlay-text center-block">
+                                        <div class="cases-image-inner">
+                                            <span class="cases-line top"></span>
+                                            <span class="cases-line top-right"></span>
+                                            <span class="cases-line bottom"></span>
+                                            <span class="cases-line bottom-left"></span>
+                                            <h6 class="text-white text-uppercase alt-font">Foodie | Healthy & Organic</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                                <div class="portfolio-content">
+                                    <h5 class="text-yellow main-font mb-2 text-uppercase">
+                                        <a href="https://foodies24.netlify.app/" target="_blank" class="text-yellow text-decoration-none">Foodie Website</a>
+                                    </h5>
+                                    <p class="text-capitalize">A fully responsive modern food delivery website built with clean HTML, CSS, and a mobile-first design approach. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="item">
+                            <div class="team-data-img">
+                                <a href="img/work/img2.png" data-fancybox="images">
+                                <div class="single-work">
+                                    <img src="img/work/img2.png" alt="team" class="img-responsive" data-no-retina>
+                                    <div class="overlay-text center-block">
+                                        <div class="cases-image-inner">
+                                            <span class="cases-line top"></span>
+                                            <span class="cases-line top-right"></span>
+                                            <span class="cases-line bottom"></span>
+                                            <span class="cases-line bottom-left"></span>
+                                            <h6 class="text-white text-uppercase alt-font">
+                                                <a href="https://corporate-website24.netlify.app/" target="_blank" class="text-yellow text-decoration-none">Corporate Solutions</a> 
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                                <div class="portfolio-content">
+                                    <h5 class="text-yellow main-font mb-2 text-uppercase">Corporate website</h5>
+                                    <p class="text-capitalize">A modern business website I built using HTML, CSS, and JS.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="item">
+                            <div class="team-data-img">
+                                <a href="img/work/img3.png" data-fancybox="images">
+                                <div class="single-work">
+                                    <img src="img/work/img3.png" alt="team" class="img-responsive" data-no-retina>
+                                    <div class="overlay-text center-block">
+                                        <div class="cases-image-inner">
+                                            <span class="cases-line top"></span>
+                                            <span class="cases-line top-right"></span>
+                                            <span class="cases-line bottom"></span>
+                                            <span class="cases-line bottom-left"></span>
+                                            <h6 class="text-white text-uppercase alt-font">Game Development</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                                <div class="portfolio-content">
+                                    <h5 class="text-yellow main-font mb-2 text-uppercase">3D Space Runner</h5>
+                                    <p class="text-capitalize">I have made some games unsing OpenGL librarys for my project. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item 4 -->
+                        <div class="item">
+                            <div class="team-data-img">
+                                <a href="img/work/img4.png" data-fancybox="images">
+                                    <div class="single-work">
+                                        <img src="img/work/img4.png" alt="team" class="img-responsive" data-no-retina>
+                                        <div class="overlay-text center-block">
+                                            <div class="cases-image-inner">
+                                                <span class="cases-line top"></span>
+                                                <span class="cases-line top-right"></span>
+                                                <span class="cases-line bottom"></span>
+                                                <span class="cases-line bottom-left"></span>
+                                                <h6 a href="https://bcc.xo.je/" target="_blank" class="text-white text-uppercase alt-font">Bird Enthusiasts</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="portfolio-content">
+                                    <h5 class="text-yellow main-font mb-2 text-uppercase">Community Forum</h5>
+                                    <p class="text-capitalize">The Bird Catalog and Community project is a web-based platform for bird enthusiasts. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item 5 -->
+                        <div class="item">
+                            <div class="team-data-img">
+                                <a href="img/work/img5.png" data-fancybox="images">
+                                    <div class="single-work">
+                                        <img src="img/work/img5.png" alt="team" class="img-responsive" data-no-retina>
+                                        <div class="overlay-text center-block">
+                                            <div class="cases-image-inner">
+                                                <span class="cases-line top"></span>
+                                                <span class="cases-line top-right"></span>
+                                                <span class="cases-line bottom"></span>
+                                                <span class="cases-line bottom-left"></span>
+                                                <h6 class="text-white text-uppercase alt-font">Website</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="portfolio-content">
+                                    <h5 class="text-yellow main-font mb-2 text-uppercase">Ad watching</h5>
+                                    <p class="text-capitalize">Complete simple micro-tasks and earn money instantly. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item 6 -->
+                        <div class="item">
+                            <div class="team-data-img">
+                                <a href="img/work/img6.png" data-fancybox="images">
+                                    <div class="single-work">
+                                        <img src="img/work/img6.png" alt="team" class="img-responsive" data-no-retina>
+                                        <div class="overlay-text center-block">
+                                            <div class="cases-image-inner">
+                                                <span class="cases-line top"></span>
+                                                <span class="cases-line top-right"></span>
+                                                <span class="cases-line bottom"></span>
+                                                <span class="cases-line bottom-left"></span>
+                                                <h6 a href="https://free-bangla-news-summarizer.onrender.com/" class="text-white text-uppercase alt-font">Ai agent</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="portfolio-content">
+                                    <h5 class="text-yellow main-font mb-2 text-uppercase">Ai News Bot</h5>
+                                    <p class="text-capitalize">An AI-powered news aggregator that fetches the latest articles from multiple sources, paraphrases them, and posts automatically. Stay updated with fresh, unique content on your website and Facebook page effortlessly. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="circle ini-customPrevBtn" id="team-circle-left">
+                        <i class="lni lni-arrow-left-circle"></i>
+                    </a>
+                    <a class="circle ini-customNextBtn" id="team-circle-right">
+                        <i class="lni lni-arrow-right-circle"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- END PORTFOLIO -->
+
+<!-- START TESTIMONIALS -->
+    <section class="section slide6 testimonial-bg" id="testimonial">
+        <div class="container">
+            <div class="row pb-5 heading-row">
+                <div class="col-12 col-md-7">
+                    <h3 class="main-font text-uppercase"><span class="text-yellow d-block text-uppercase"> Customers </span> <span> love the work i do </span></h3>
+                    <p class="py-2 heading-row alt-font">Please look what my clients say about my exceptional work</p>
+                </div>
+                <div class="col-12 col-md-5 text-md-right pt-4 pt-md-0">
+                    <h2 class="m-0 text-yellow main-font">20+</h2>
+                    <p class="alt-font">Clients Worldwide</p>
+                </div>
+            </div>
+
+            <div class="row pt-3">
+                <div class="col-12">
+                    <!-- Testimonial Slider -->
+                    <div id="testimonial-carousal" class="testimonial-owl owl-carousel owl-theme">
+                        
+                        <!-- Item-1 -->
+                        <div class="item text-center">
+                            <div class="icon-quotes mb-4">
+                                <i class="lni lni-quotation"></i>
+                            </div>
+                            <div class="description">
+                                <p class="text-grey paragraph">“Raihan handled our project with full dedication. Prothom thekei communication clear chilo and delivery timely chilo. Highly recommended!”</p>
+                            </div>
+                            <div class="testimonial-img mt-4">
+                                <img src="img/av/gamer.png" alt="">
+                            </div>
+                            <div class="testimonial-tittle mt-3 mb-3">
+                                <h4 class="mb-0 text-yellow main-font font-weight-normal text-uppercase">Sara Jones</h4>
+                            </div>
+                        </div>
+
+                        <!-- Item-2 -->
+                        <div class="item text-center">
+                            <div class="icon-quotes mb-4">
+                                <i class="lni lni-quotation"></i>
+                            </div>
+                            <div class="description">
+                                <p class="text-grey paragraph">“Excellent work! Raihan er coding skills o problem solving ekdom next level. Client communication o khub smooth chilo.”</p>
+                            </div>
+                            <div class="testimonial-img mt-4">
+                                <img src="img/av/girl.png" alt="">
+                            </div>
+                            <div class="testimonial-tittle mt-3 mb-3">
+                                <h4 class="mb-0 text-yellow main-font font-weight-normal text-uppercase">Ricky Clark</h4>
+                            </div>
+                        </div>
+
+                        <!-- Item-3 -->
+                        <div class="item text-center">
+                            <div class="icon-quotes mb-4">
+                                <i class="lni lni-quotation"></i>
+                            </div>
+                            <div class="description">
+                                <p class="text-grey paragraph">“Highly satisfied with the outcome. Project deadlines met, and every detail carefully implemented. Dhonnobad Raihan for the amazing support!”</p>
+                            </div>
+                            <div class="testimonial-img mt-4">
+                                <img src="img/av/hacker.png" alt="">
+                            </div>
+                            <div class="testimonial-tittle mt-3 mb-3">
+                                <h4 class="mb-0 text-yellow main-font font-weight-normal text-uppercase">Johnson Smith</h4>
+                            </div>
+                        </div>
+
+                        <!-- Item-4 -->
+                        <div class="item text-center">
+                            <div class="icon-quotes mb-4">
+                                <i class="lni lni-quotation"></i>
+                            </div>
+                            <div class="description">
+                                <p class="text-grey paragraph">“Raihan er design sense o tech knowledge khub impressive. Kaaj khub professional vabe complete holo, ami khub happy!”</p>
+                            </div>
+                            <div class="testimonial-img mt-4">
+                                <img src="img/av/man.png" alt="">
+                            </div>
+                            <div class="testimonial-tittle mt-3 mb-3">
+                                <h4 class="mb-0 text-yellow main-font font-weight-normal text-uppercase">Ellie Joe</h4>
+                            </div>
+                        </div>
+
+                        <!-- Item-5 -->
+                        <div class="item text-center">
+                            <div class="icon-quotes mb-4">
+                                <i class="lni lni-quotation"></i>
+                            </div>
+                            <div class="description">
+                                <p class="text-grey paragraph">“Raihan er kaj khub efficient chilo. Prothom thekei requirements clear chilo and output exactly jeta chailam.”</p>
+                            </div>
+                            <div class="testimonial-img mt-4">
+                                <img src="img/av/programmer.png" alt="">
+                            </div>
+                            <div class="testimonial-tittle mt-3 mb-3">
+                                <h4 class="mb-0 text-yellow main-font font-weight-normal text-uppercase">শোভন কর</h4>
+                            </div>
+                        </div>
+
+                        <!-- Item-6 -->
+                        <div class="item text-center">
+                            <div class="icon-quotes mb-4">
+                                <i class="lni lni-quotation"></i>
+                            </div>
+                            <div class="description">
+                                <p class="text-grey paragraph">“Excellent communication and technical skills. Raihan er suggestions khub helpful chilo project finalize korte.”</p>
+                            </div>
+                            <div class="testimonial-img mt-4">
+                                <img src="img/av/woman.png" alt="">
+                            </div>
+                            <div class="testimonial-tittle mt-3 mb-3">
+                                <h4 class="mb-0 text-yellow main-font font-weight-normal text-uppercase">রীমা আক্তার</h4>
+                            </div>
+                        </div>
+
+                        <!-- Item-7 -->
+                        <div class="item text-center">
+                            <div class="icon-quotes mb-4">
+                                <i class="lni lni-quotation"></i>
+                            </div>
+                            <div class="description">
+                                <p class="text-grey paragraph">“Raihan er dedication dekhe khub impressed. Kaaj timely complete holo, and support always available chilo.”</p>
+                            </div>
+                            <div class="testimonial-img mt-4">
+                                <img src="img/av/girl.png" alt="">
+                            </div>
+                            <div class="testimonial-tittle mt-3 mb-3">
+                                <h4 class="mb-0 text-yellow main-font font-weight-normal text-uppercase">সুমাইয়া হাসান</h4>
+                            </div>
+                        </div>
+
+                        <!-- Item-8 -->
+                        <div class="item text-center">
+                            <div class="icon-quotes mb-4">
+                                <i class="lni lni-quotation"></i>
+                            </div>
+                            <div class="description">
+                                <p class="text-grey paragraph">“Professional work with attention to detail. Raihan er suggestions project ke aro better kore tullo. Definitely recommend!”</p>
+                            </div>
+                            <div class="testimonial-img mt-4">
+                                <img src="img/av/man.png" alt="">
+                            </div>
+                            <div class="testimonial-tittle mt-3 mb-3">
+                                <h4 class="mb-0 text-yellow main-font font-weight-normal text-uppercase">তানভীর হাসান</h4>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- END TESTIMONIALS -->
+
+<!-- START CONTACT -->
+    <section class="section slide5 contact-bg" id="contact">
+        <div class="container">
+            <div class="row pb-5">
+                <div class="col-12 col-md-7">
+                    <h3 class="main-font text-uppercase"><span class="text-yellow d-block text-uppercase"> Contact Me </span> <span> Lets Get In Touch </span></h3>
+                    <p class="py-2 alt-font">I am available all the time for any project acording to my skills.</p>
+                </div>
+                <div class="col-12 col-md-5 text-md-right pt-4 pt-md-0">
+                    <h2 class="m-0 text-yellow main-font font-weight-bold">fb.com/raihankzs</h2>
+                    <p class="alt-font">My FACEBOOK ID</p>
+                </div>
+            </div>
+            <form class="contact-form" id="contact-form-data">
+                <div class="row pt-3">
+                    <!-- Submission Popup -->
+                    <div class="col-12">
+                        <div class="col-sm-12 px-0" id="result"></div>
+                    </div>
+                    <!--Left Column-->
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Name" required="" id="first_name" name="firstName">
+                        </div>
+
+                        <div class="form-group">
+                            <input class="form-control" type="tel" placeholder="Contact No" id="phone" name="userPhone">
+                        </div>
+
+                        <div class="form-group">
+                            <input class="form-control" type="email" placeholder="Email" required="" id="email" name="userEmail">
+                        </div>
+                    </div>
+                    <!--Right Column-->
+                    <div class="col-12 col-md-6 offset-md-1 contact-form">
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Type Your Message Here" id="message" name="userMessage"></textarea>
+                        </div>
+                    </div>
+                    <!-- Button -->
+                    <div class="col-12 px-md-0">
+                        <div class="contact-btn pt-5 text-center text-lg-left">
+                            <button type="button" class="btn btn-medium btn-rounded btn-yellow text-capitalize contact_btn">Contact Now</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+<!-- END CONTACT -->
+</div>
+
+<!-- Start Copyright -->
+<div class="slider-bottom">
+    <div class="slider-footer w-auto">
+        <ul class="social-icons-simple">
+            <li><a class="social-icon" href="https://www.facebook.com/raihankzs" target="_blank"><i class="lni lni-facebook-filled"></i> </a> </li>
+            <li><a class="social-icon" href="https://www.instagram.com/raihan.ch0wdhury/" target="_blank"><i class="lni lni-instagram-original"></i> </a> </li>
+            <li><a class="social-icon" href="https://wa.me/8801913168655" target="_blank"><i class="lni lni-whatsapp"></i></a>
+            <li><a class="social-icon" href="https://www.linkedin.com/in/mdraihanchowdhury/" target="_blank"><i class="lni lni-linkedin-original"></i> </a> </li>
+        </ul>
+    </div>
+    <span class="slider-copyright text-grey">@Raihan's portfolio</span>
+</div>
+<!-- End Copyright -->
+
+<!-- JavaScript -->
+<script src="js/bundle.min.js"></script>
+<!-- Plugin Js -->
+ 
+<!-- Include Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+
+<script src='https://cdn.jsdelivr.net/npm/jquery.ripples@0.6.3/dist/jquery.ripples.min.js'></script>
+<script src="js/jquery.appear.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<!-- CUSTOM JS -->
+<script src="js/jquery.pagepiling.min.js"></script>
+<script src="js/timeline.js"></script>
+<script src="js/contact_us.js"></script>
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
